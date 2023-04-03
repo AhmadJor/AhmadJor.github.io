@@ -10,7 +10,7 @@
 endobj
 4 0 obj
 <<
-/Length 3413
+/Length 3751
 >>
 stream
 0.5670000000000001 w
@@ -88,72 +88,85 @@ BT
 /F1 16 Tf
 18.3999999999999986 TL
 0 g
-28.3464566929133888 325.9844881889763428 Td
+28.3464566929133888 422.3624409448818255 Td
 (Education) Tj
 ET
 1.4173228346456694 w
-28.3464566929133888 311.8112598425196325 m
-566.9291338582677326 311.8112598425196325 l
+28.3464566929133888 408.1892125984251152 m
+566.9291338582677326 408.1892125984251152 l
 S
 BT
 /F1 12 Tf
 13.7999999999999989 TL
 0 g
-28.3464566929133888 283.4648031496062686 Td
-(Bar Ilan University - BSc.) Tj
+28.3464566929133888 379.8427559055117513 Td
+(Bar Ilan University  - BSc.) Tj
 ET
 BT
 /F1 12 Tf
 13.7999999999999989 TL
 0 g
-453.5433070866142202 283.4648031496062686 Td
+453.5433070866142202 379.8427559055117513 Td
 (oct 2021 - oct 2024) Tj
 ET
 BT
 /F1 12 Tf
 13.7999999999999989 TL
 0 g
-28.3464566929133888 249.4490551181102092 Td
-(Bar Ilan University - BSc.) Tj
+28.3464566929133888 345.8270078740156919 Td
+(Bar Ilan University  - BSc.) Tj
 ET
 BT
 /F1 12 Tf
 13.7999999999999989 TL
 0 g
-453.5433070866142202 249.4490551181102092 Td
+453.5433070866142202 345.8270078740156919 Td
 (oct 2021 - oct 2024) Tj
 ET
 BT
 /F1 16 Tf
 18.3999999999999986 TL
 0 g
-28.3464566929133888 187.086850393700729 Td
+28.3464566929133888 283.4648031496062686 Td
 (Projects) Tj
 ET
 1.4173228346456694 w
-28.3464566929133888 172.9136220472439902 m
-566.9291338582677326 172.9136220472439902 l
+28.3464566929133888 269.2915748031495013 m
+566.9291338582677326 269.2915748031495013 l
 S
 BT
 /F1 12 Tf
 13.7999999999999989 TL
 0 g
-28.3464566929133888 144.5671653543306547 Td
+28.3464566929133888 240.9451181102361943 Td
 (KNN Classifications with C++ Sockets: A Comprehensive Implementation.:) Tj
 ET
 BT
 /F1 12 Tf
 13.7999999999999989 TL
 0 g
-28.3464566929133888 116.220708661417234 Td
-( - complete implementation of K-Nearest Neighbor \(KNN\) classifications using C++, sockets, multithreading, Object-Oriented Programming \(OOP\), and design patterns. The program takes a CSV file as input, implements a custom KNN algorithm, and provides a deep understanding of the KNN classifications.) Tj
+56.6929133858267775 212.5986614173227736 Td
+(complete implementation of K-Nearest Neighbor \(KNN\) classifications using C++, sockets,) Tj
+T* (multithreading, Object-Oriented Programming \(OOP\), and design patterns. The program takes a) Tj
+T* (CSV file as input, implements a custom KNN algorithm, and provides a deep understanding of) Tj
+T* (the KNN classifications.) Tj
+T* (you can find this project in this link : https://github.com/AhmadJor/KNN-Classifications-with-C-Sockets) Tj
 ET
 BT
 /F1 12 Tf
 13.7999999999999989 TL
 0 g
-28.3464566929133888 87.8742519685038133 Td
-(you can find this project in this link : https://github.com/AhmadJor/KNN-Classifications-with-C-Sockets.git) Tj
+28.3464566929133888 99.2128346456692043 Td
+(Java Arkanoid Game:) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 70.8663779527557836 Td
+(A fun and engaging Arkanoid game developed using Java, OOP principles, design patterns, and) Tj
+T* (a GUI.) Tj
+T* (you can find this project in this link : https://github.com/AhmadJor/Arkanoid-Game) Tj
 ET
 endstream
 endobj
@@ -167,7 +180,7 @@ endobj
 endobj
 6 0 obj
 <<
-/Length 3418
+/Length 2702
 >>
 stream
 1.4173228346456694 w
@@ -177,148 +190,112 @@ BT
 13.7999999999999989 TL
 0 g
 28.3464566929133888 785.1970866141732586 Td
-(Java Arkanoid Game:) Tj
-ET
-BT
-/F1 12 Tf
-13.7999999999999989 TL
-0 g
-28.3464566929133888 756.8506299212598378 Td
-( - A fun and engaging Arkanoid game developed using Java, OOP principles, design patterns, and a GUI.) Tj
-ET
-BT
-/F1 12 Tf
-13.7999999999999989 TL
-0 g
-28.3464566929133888 728.5041732283464171 Td
-(you can find this project in this link : https://github.com/AhmadJor/Arkanoid-Game  ) Tj
-ET
-BT
-/F1 12 Tf
-13.7999999999999989 TL
-0 g
-28.3464566929133888 643.4648031496062686 Td
 (portfolio:) Tj
 ET
 BT
 /F1 12 Tf
 13.7999999999999989 TL
 0 g
+56.6929133858267775 756.8506299212598378 Td
+(responsive websites, web applications, and interactive features. Built using modern web) Tj
+T* (technologies such as HTML, CSS, JavaScript) Tj
+T* (you can find this project in this link : ahmadjor.github.io) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+28.3464566929133888 700.15771653543311 Td
+(Resume Generator:) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 671.8112598425196893 Td
+(A user-friendly online resume builder that allows job seekers to create a professional-looking) Tj
+T* (resume in minutes.) Tj
+T* (you can find this project in this link : https://github.com/AhmadJor/resume-generator) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
 28.3464566929133888 615.1183464566928478 Td
-( - responsive websites, web applications, and interactive features. Built using modern web technologies such as HTML, CSS, JavaScript) Tj
-ET
-BT
-/F1 12 Tf
-13.7999999999999989 TL
-0 g
-28.3464566929133888 586.7718897637794271 Td
-(you can find this project in this link : AhmadJor.github.io) Tj
-ET
-BT
-/F1 12 Tf
-13.7999999999999989 TL
-0 g
-28.3464566929133888 501.7325196850393354 Td
-(Resume-generator:) Tj
-ET
-BT
-/F1 12 Tf
-13.7999999999999989 TL
-0 g
-28.3464566929133888 473.3860629921259147 Td
-( - A user-friendly online resume builder that allows job seekers to create a professional-looking resume in minutes.) Tj
-ET
-BT
-/F1 12 Tf
-13.7999999999999989 TL
-0 g
-28.3464566929133888 445.0396062992125508 Td
-(you can find this project in this link : https://github.com/AhmadJor/resume-generator) Tj
-ET
-BT
-/F1 12 Tf
-13.7999999999999989 TL
-0 g
-28.3464566929133888 360.0002362204724022 Td
 (Calculater:) Tj
 ET
 BT
 /F1 12 Tf
 13.7999999999999989 TL
 0 g
-28.3464566929133888 331.6537795275589815 Td
-( - a simple calculator built using HTML, CSS, and JavaScript. The calculator can perform basic arithmetic operations such as addition, subtraction, multiplication, and division) Tj
-ET
-BT
-/F1 12 Tf
-13.7999999999999989 TL
-0 g
-28.3464566929133888 303.3073228346455608 Td
-(you can find this project in this link : https://github.com/AhmadJor/calculator-web-page) Tj
+56.6929133858267775 586.7718897637794271 Td
+( simple calculator built using HTML, CSS, and JavaScript. The calculator can perform basic) Tj
+T* (arithmetic operations such as addition, subtraction, multiplication, and division) Tj
+T* (you can find this project in this link : https://github.com/AhmadJor/calculator-web-page) Tj
 ET
 BT
 /F1 16 Tf
 18.3999999999999986 TL
 0 g
-28.3464566929133888 189.9214960629919915 Td
+28.3464566929133888 501.7325196850393354 Td
 (Experience) Tj
 ET
 1.4173228346456694 w
-28.3464566929133888 175.748267716535338 m
-595.2755905511811534 175.748267716535338 l
+28.3464566929133888 487.559291338582625 m
+595.2755905511811534 487.559291338582625 l
 S
 BT
 /F1 12 Tf
 13.7999999999999989 TL
 0 g
-28.3464566929133888 147.4018110236219172 Td
-(Israeli National Service | volunteer) Tj
+28.3464566929133888 459.2128346456692611 Td
+(Israeli National service | volunteer) Tj
 ET
 BT
 /F1 12 Tf
 13.7999999999999989 TL
 0 g
-453.5433070866142202 147.4018110236219172 Td
+453.5433070866142202 459.2128346456692611 Td
 (sep 2020 - sep 2022) Tj
 ET
 BT
 /F1 12 Tf
 13.7999999999999989 TL
 0 g
-28.3464566929133888 133.2285826771652637 Td
+28.3464566929133888 445.0396062992125508 Td
 (Volunteering for two years at a special education school can be a highly rewarding experience.) Tj
 ET
 BT
 /F1 12 Tf
 13.7999999999999989 TL
 0 g
-28.3464566929133888 119.0553543307086102 Td
+28.3464566929133888 430.8663779527558404 Td
 (Special education schools are designed to meet the unique needs of students with disabilities,) Tj
 ET
 BT
 /F1 12 Tf
 13.7999999999999989 TL
 0 g
-28.3464566929133888 104.882125984251843 Td
+28.3464566929133888 416.69314960629913 Td
 (and volunteering at such a school can involve a wide range of activities.) Tj
 ET
 BT
 /F1 16 Tf
 18.3999999999999986 TL
 0 g
-28.3464566929133888 76.5356692913385359 Td
+28.3464566929133888 388.3466929133857661 Td
 (Skills) Tj
 ET
 1.4173228346456694 w
-28.3464566929133888 62.3624409448817829 m
-595.2755905511811534 62.3624409448817829 l
+28.3464566929133888 374.1734645669290558 m
+595.2755905511811534 374.1734645669290558 l
 S
 BT
 /F1 12 Tf
 13.7999999999999989 TL
 0 g
-56.6929133858267775 34.0159842519684616 Td
-(Node.js, Java, Python, C++, SQL, MongoDB , Express ,networks , CSS and HTML , Java-script) Tj
+56.6929133858267775 345.8270078740156919 Td
+(C++ ,Python , Java , Node.js, Express , React , CSS, HTML ,  SQL , OOP, Networking , mongoDB ) Tj
 ET
 endstream
 endobj
@@ -492,7 +469,7 @@ endobj
 21 0 obj
 <<
 /Producer (jsPDF 2.5.1)
-/CreationDate (D:20230403224624+03'00')
+/CreationDate (D:20230404024358+03'00')
 >>
 endobj
 22 0 obj
@@ -506,35 +483,35 @@ endobj
 xref
 0 23
 0000000000 65535 f 
-0000007224 00000 n 
-0000009049 00000 n 
+0000006846 00000 n 
+0000008671 00000 n 
 0000000015 00000 n 
 0000000152 00000 n 
-0000003617 00000 n 
-0000003754 00000 n 
-0000007287 00000 n 
-0000007412 00000 n 
-0000007542 00000 n 
-0000007675 00000 n 
-0000007813 00000 n 
-0000007937 00000 n 
-0000008066 00000 n 
-0000008198 00000 n 
-0000008334 00000 n 
-0000008462 00000 n 
-0000008589 00000 n 
-0000008718 00000 n 
-0000008851 00000 n 
-0000008953 00000 n 
-0000009299 00000 n 
-0000009385 00000 n 
+0000003955 00000 n 
+0000004092 00000 n 
+0000006909 00000 n 
+0000007034 00000 n 
+0000007164 00000 n 
+0000007297 00000 n 
+0000007435 00000 n 
+0000007559 00000 n 
+0000007688 00000 n 
+0000007820 00000 n 
+0000007956 00000 n 
+0000008084 00000 n 
+0000008211 00000 n 
+0000008340 00000 n 
+0000008473 00000 n 
+0000008575 00000 n 
+0000008921 00000 n 
+0000009007 00000 n 
 trailer
 <<
 /Size 23
 /Root 22 0 R
 /Info 21 0 R
-/ID [ <5CE2A499767863EF9CDF270EED2197AD> <5CE2A499767863EF9CDF270EED2197AD> ]
+/ID [ <5326FA761D980A67A9C23D168A36025D> <5326FA761D980A67A9C23D168A36025D> ]
 >>
 startxref
-9489
+9111
 %%EOF
