@@ -19,6 +19,6 @@ To navigate between these pages, use the navigation menu at the top of the page.
 ## Contributing
 I welcome contributions to this project. If you would like to contribute, please follow these steps:
 
-1- Fork the repository and create a new branch for your contribution.
-2- Make your changes and ensure that they pass any necessary tests.
-3- Submit a pull request with a clear description of your changes.
+- Fork the repository and create a new branch for your contribution.
+- Make your changes and ensure that they pass any necessary tests.
+- Submit a pull request with a clear description of your changes.
