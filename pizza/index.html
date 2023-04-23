@@ -95,9 +95,9 @@
 انغمس في المذاق الأصيل لإيطاليا مع أطباق البيتزا والمعكرونة الطازجة. ستنقل البيتزا المقرمشة المطهوة على الحطب والمعكرونة المطبوخة بشكل مثالي براعم التذوق الخاصة بك مباشرة إلى إيطاليا. تعال وجرب أفضل المأكولات الإيطالية في مطعمنا اليوم.
                         </p>
                         <div class="left-to-right play-on-scroll delay-4">
-                            <button>
-                               <a href="tel:04-826-5588"> أطلب اللآن</a>
-                            </button>
+                          <a href="tel:04-826-5588">   <button>
+                               أطلب اللآن
+                            </button></a>
                         </div>
                     </div>
                 </div>
@@ -693,31 +693,43 @@
     <script src="js/main.js"></script>
     <script>
         // Define an empty array to store cart items
+// Define an empty array to store cart items
 let cartItems = [];
 
-// Get the cart button element
-const cartBtn = document.querySelector('.cart-btn');
+// Get all the cart buttons
+const cartBtns = document.querySelectorAll('.cart-btn');
 
-// Add a click event listener to the cart button
-cartBtn.addEventListener('click', function() {
-  // Add the cart item content to the cartItems array
-  cartItems.push({
-    item: 'cart item content goes here'
-  });
+// Add a click event listener to each cart button
+cartBtns.forEach((cartBtn) => {
+    cartBtn.addEventListener('click', function() {
+        // Get the parent food-item element of the cart button
+        const foodItem = cartBtn.closest('.food-item');
 
-  // Call a function to send a WhatsApp message with the cart items
-  sendWhatsAppMessage(cartItems);
+        // Get the food item name and price from the food-item element
+        const name = foodItem.querySelector('h3').innerText.trim();
+        const price = foodItem.querySelector('span').innerText.trim();
+
+        // Add the food item to the cartItems array
+        cartItems.push({
+            name: name,
+            price: price
+        });
+
+        // Call a function to send a WhatsApp message with the cart items
+        sendWhatsAppMessage(cartItems);
+    });
 });
 
 // Function to send a WhatsApp message with the cart items
 function sendWhatsAppMessage(items) {
-  // Construct the WhatsApp message URL with the items array as the pre-filled message
-  const message = encodeURIComponent('My cart items:\n\n' + items.map(item => item.item).join('\n'));
-  const whatsappUrl = `https://wa.me/+972509192259?text=${message}`;
+    // Construct the WhatsApp message URL with the items array as the pre-filled message
+    const message = encodeURIComponent('My cart items:\n\n' + items.map(item => item.name + ' (' + item.price + ')').join('\n'));
+    const whatsappUrl = `https://wa.me/+972509192259?text=${message}`;
 
-  // Open the WhatsApp message URL in a new window
-  window.open(whatsappUrl);
+    // Open the WhatsApp message URL in a new window
+    window.open(whatsappUrl);
 }
+
 
     </script>
 </body>
