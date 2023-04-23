@@ -713,7 +713,7 @@ cartBtn.addEventListener('click', function() {
 function sendWhatsAppMessage(items) {
   // Construct the WhatsApp message URL with the items array as the pre-filled message
   const message = encodeURIComponent('My cart items:\n\n' + items.map(item => item.item).join('\n'));
-  const whatsappUrl = `https://wa.me/0509192259?text=${message}`;
+  const whatsappUrl = `https://wa.me/+972509192259?text=${message}`;
 
   // Open the WhatsApp message URL in a new window
   window.open(whatsappUrl);
