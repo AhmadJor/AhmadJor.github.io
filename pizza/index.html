@@ -74,7 +74,7 @@
                 </a>
             </div>
             <div class="right-menu">
-                <div class="cart-btn">
+                <div class="send-cart-btn">
                     <i class='bx bx-cart-alt'></i>
                 </div>
             </div>
@@ -687,43 +687,119 @@
 
     <script src="js/main.js"></script>
     <script>
-        // Define an empty array to store cart items
-// Define an empty array to store cart items
-let cartItems = [];
 
-// Get all the cart buttons
-const cartBtns = document.querySelectorAll('.cart-btn');
 
-// Add a click event listener to each cart button
-cartBtns.forEach((cartBtn) => {
-    cartBtn.addEventListener('click', function() {
-        // Get the parent food-item element of the cart button
-        const foodItem = cartBtn.closest('.food-item');
 
-        // Get the food item name and price from the food-item element
-        const name = foodItem.querySelector('h3').innerText.trim();
-        const price = foodItem.querySelector('span').innerText.trim();
 
-        // Add the food item to the cartItems array
-        cartItems.push({
-            name: name,
-            price: price
-        });
 
-        // Call a function to send a WhatsApp message with the cart items
-        sendWhatsAppMessage(cartItems);
+
+
+
+
+
+
+
+
+
+
+
+
+// Define an empty array to store temporary cart items
+let tempCartItems = [];
+
+// Get the cart button (temporary cart)
+const cartBtn = document.querySelector('.cart-btn');
+
+// Add a click event listener to the cart button
+cartBtn.addEventListener('click', function() {
+    // Get the parent food-item element of the clicked cart button
+    const foodItem = cartBtn.closest('.food-item');
+
+    // Get the food item name and price from the food-item element
+    const name = foodItem.querySelector('h3').innerText.trim();
+    const price = foodItem.querySelector('span').innerText.trim();
+
+    // Add the food item to the tempCartItems array
+    tempCartItems.push({
+        name: name,
+        price: price
     });
+});
+
+// Get the send cart button (final cart)
+const sendCartBtn = document.querySelector('.send-cart-btn');
+
+// Add a click event listener to the send cart button
+sendCartBtn.addEventListener('click', function() {
+    // Call a function to send a WhatsApp message with the tempCartItems array
+    sendWhatsAppMessage(tempCartItems);
+
+    // Clear the tempCartItems array
+    tempCartItems = [];
+
+    // Clear the cart button text
+    cartBtn.innerText = '';
 });
 
 // Function to send a WhatsApp message with the cart items
 function sendWhatsAppMessage(items) {
     // Construct the WhatsApp message URL with the items array as the pre-filled message
     const message = encodeURIComponent('My cart items:\n\n' + items.map(item => item.name + ' (' + item.price + ')').join('\n'));
-    const whatsappUrl = `https://wa.me/+972509192259?text=${message}`;
+    const whatsappUrl = `https://wa.me/?text=${message}`;
 
     // Open the WhatsApp message URL in a new window
     window.open(whatsappUrl);
 }
+
+// Update the cart button text with the number of items in the tempCartItems array
+function updateCartBtnText() {
+    cartBtn.innerText = tempCartItems.length;
+}
+
+// Call the updateCartBtnText function on page load
+updateCartBtnText();
+
+
+
+
+
+        // Define an empty array to store cart items
+// Define an empty array to store cart items
+// let cartItems = [];
+
+// // Get all the cart buttons
+// const cartBtns = document.querySelectorAll('.cart-btn');
+
+// // Add a click event listener to each cart button
+// cartBtns.forEach((cartBtn) => {
+//     cartBtn.addEventListener('click', function() {
+//         // Get the parent food-item element of the cart button
+//         const foodItem = cartBtn.closest('.food-item');
+
+//         // Get the food item name and price from the food-item element
+//         const name = foodItem.querySelector('h3').innerText.trim();
+//         const price = foodItem.querySelector('span').innerText.trim();
+
+//         // Add the food item to the cartItems array
+//         cartItems.push({
+//             name: name,
+//             price: price
+//         });
+
+//         // Call a function to send a WhatsApp message with the cart items
+//         sendWhatsAppMessage(cartItems);
+//     });
+// });
+
+// // Function to send a WhatsApp message with the cart items
+// function sendWhatsAppMessage(items) {
+//     // Construct the WhatsApp message URL with the items array as the pre-filled message
+//     const message = encodeURIComponent('My cart items:\n\n' + items.map(item => item.name + ' (' + item.price + ')').join('\n'));
+//     const whatsappUrl = `https://wa.me/+972509192259?text=${message}`;
+
+//     // Open the WhatsApp message URL in a new window
+//     window.open(whatsappUrl);
+// }
 
 
     </script>
