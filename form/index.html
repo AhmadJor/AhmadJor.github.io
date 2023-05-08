@@ -1,91 +1,184 @@
+<!DOCTYPE html>
 <html lang="ar">
-    <html dir="rtl"></html>
 <head>
-
-    <link rel="stylesheet" href="styles.css">
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
-    
-        <!-- Icon Font Stylesheet -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-    
-        <!-- Libraries Stylesheet -->
-        <link href="../systemlib/animate/animate.min.css" rel="stylesheet">
-        <link href="../systemlib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="../systemlib/lightbox/css/lightbox.min.css" rel="stylesheet">
-    
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="../system/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تعلم معنا</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<div class="container-fluid bg-light overflow-hidden my-5 px-lg-0" id="quote">
-    <div class="container quote px-lg-0">
-        <div class="row g-0 mx-lg-0">
-            <div class="col-lg-6 ps-lg-0" style="min-height: 400px;">
-                <div class="position-relative h-100">
-                    <img class="position-absolute img-fluid w-100 h-100" src="img/quote.jpg" style="object-fit: cover;" alt="">
+    <div class="main-section" id="main">
+            <header>
+                <a class="logo" href="">الصفحة الرئيسية</a>
+                <div class="nav">
+                    <a href="#main">نحن</a>
+                    <a href="#syllabus">المنهج</a>
+                    <a href="#courses">الدورات</a>
+                    <a href="#reviews">قالوا عنا</a>
+                </div>
+            </header>
+            <section>
+                <div class="right">
+                    <h1>فكرتك الكبيرة القادمة تبدأ من هنا</h1>
+                    <p>الإطار المثالي لتعلم كيفية إدارة جميع جوانب الحياة .</p>
+                    <a class="button" href="#quote">إبدأ الان </a>
+                </div>
+                <div class="left">
+                    <img class="img1" src="img/main-section-1.svg" alt="">
+                    <img class="img2" src="img/main-section-3.svg" alt="">
+                    <img class="img3" src="img/main-section-2.svg" alt="">
+                </div>
+                <div class="money">
+                    <img src="img/money1.svg" alt="">
+                    <img src="img/money2.svg" alt="">
+                    <img src="img/money3.svg" alt="">
+                    <img src="img/money4.svg" alt="">
+                </div>
+            </section>
+            <footer>
+                <div class="block">
+                    <div class="stat">+20</div>
+                    <p>دروس مثالية لتطوير القدرات التعليمية</p>
+                </div>
+                <div class="block">
+                    <div class="stat">+150</div>
+                    <p class="bord">  مراجعات وتلخيصات</p>
+                </div>
+                <div class="block">
+                    <div class="stat">+10k</div>
+                    <p>تتصل الشركات الصغيرة عبر الانترنت من المنزل بدون تعقيدات ولا رمز</p>
+                </div>
+            </footer>
+    </div>
+    <div class="syllabus-section" id="syllabus">
+        <div class="right">
+            <img src="img/syllabus.png" alt="">
+        </div>
+        <div class="left">
+            <h1>منهج الدروس</h1>
+            <div class="sillab">
+                <div class="num">01</div>
+                <div class="text">
+                    <h3>فهم نقاط الضعف بالمجال</h3>
+                    <p>. بمساعدتنا ، يمكنك التعامل مع أي مهمة ، كما يمكنك الحصول على استشارة مخصصة.</p>
+                </div>
+                <img src="img/arrow.svg" alt="">
+            </div>
+            <div class="sillab">
+                <img src="img/arrow.svg" alt="">
+                <div class="num">02</div>
+                <div class="text">
+                    <h3>تطبيق عملي مستقل</h3>
+                    <p> بعد تعلم كل كوضوع سيقوم الطالب بأخذ تمارين بشكل مستقل لنعلم وتيرة التقدم</p>
                 </div>
             </div>
-            <div class="col-lg-6 quote-text py-5 wow fadeIn" data-wow-delay="0.5s">
-                <div class="p-lg-5 pe-lg-0">
-                    <div class="bg-primary mb-3" style="width: 60px; height: 2px;"></div>
-                    <h1 class="display-5 mb-5">הצעת מחיר ללא תשלום</h1>
-                    <p class="mb-4 pb-2">אל תחכו עד שיהיה מאוחר מדי, עשו את הצעד הראשון לקראת פריצת דרך של העסק שלך .</p>
-                    <form id="quote-form">
-                        <div class="row g-3">
-                            <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control border-0" placeholder="שם" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control border-0" placeholder="דואר אלקטרוני" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control border-0" placeholder="מספר טלפון" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <select class="form-select border-0" style="height: 55px;">
-                                    <option selected>בחר שירות</option>
-                                    <option value="1">פרסום</option>
-                                    <option value="2">בניית אתר</option>
-                                    <option value="3">אחר</option>
-                                </select>
-                            </div>
-                            <div class="col-12">
-                                <textarea class="form-control border-0" placeholder=" ? עוד משהו"></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button id="submit-btn" class="btn btn-primary w-100 py-3" type="submit"> שלח</button>
-
-                            </div>
-                        </div>
-                    </form>
+            <div class="sillab">
+                <div class="num">03</div>
+                <div class="text">
+                    <h3>مراجعات  </h3>
+                    <p>في نهاية الدرس نراجع كل ما تعلمناه مع الطالب </p>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<script>
-    const form = document.getElementById('quote-form');
-    const submitBtn = document.getElementById('submit-btn');
-  
-    submitBtn.addEventListener('click', (e) => {
-      e.preventDefault(); // prevent the form from submitting normally
-  
-      const name = form.elements[0].value;
-      const email = form.elements[1].value;
-      const phone = form.elements[2].value;
-      const service = form.elements[3].value;
-      const note = form.elements[4].value;
-  
-      const message = `שם: ${name}%0Aדוא"ל: ${email}%0Aטלפון: ${phone}%0Aשירות: ${service}%0Aהערות: ${note}`;
-  
-      const url = `https://wa.me/+972539527635?text=${message}`; // replace XXXXXXXXXX with your phone number
-  
-      window.location.href = url; // redirect the user to WhatsApp
-    });
-  </script>
+    <div class="courses-section" id="courses">
+        <div class="text">
+            <h1>دروس احترافية في العديد من المجالات</h1>
+            <p>دوراتنا عبارة عن دورات مهنية كاملة ذات جودة عالية تتضمن مجموعة من الدروس  والمواد العملية والتدريبية.</p>
+        </div>
+        <div class="courses">
+            <div class="card">
+                <div class="card-text">
+                    <h6>رياضيات وفيزياء</h6>
+                    <p>تعلم كل ما عليك معرفته في الرياضيات والفيزياء</p>
+                </div>
+                <div class="more">
+                    <img src="img/courses1.svg" alt="">
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-text">
+                    <h6>برمجة</h6>
+                    <p>كيف تبدأ في التطوير بدون أي معرفة أساسية</p>
+                </div>
+                <div class="more">
+                    <img src="img/courses2.svg" alt="">
+            
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-text">
+                    <h6>اللغة الانجليزية</h6>
+                    <p>تعلم التحدث بطلاقة وكل ما يجب عليك معرفته لتطور من لغتك الانجليزية</p>
+                </div>
+                <div class="more">
+                    <img src="img/courses3.svg" alt="">
+            
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="reviews-section" id="reviews">
+        <h1>آراء الطلاب</h1>
+        <div class="students-reviews">
+            <div class="review">
+                <img src="img/reviews1.png" alt="">
+                <h3>الضاوية مخلوفي</h3>
+                <p>إنه بالطبع رائع! يتحدث المعلمون بشكل ممتع للغاية ويمكن فهمه بسهولة. شكرا جزيلا لكم!</p>
+            </div>
+            <div class="review">
+                <img src="img/reviews2.png" alt="">
+                <h3>مصباح السيبار</h3>
+                <p class="bord">المسار واضح بما فيه الكفاية. شرح جيد ، توجد الكثير من الممارسة. أوصي به للجميع!</p>
+            </div>
+            <div class="review">
+                <img src="img/reviews3.png" alt="">
+                <h3>صابرينة الهاملة</h3>
+                <p>دورات سهلة الوصول للغاية ، كل شيء واضح جدًا وجيد.</p>
+            </div>
+        </div>
+    </div> -->
+    <div class="footer-section">
+        <div class="top" id="quote">
+            <div class="right">
+                <h1>مازالت لديك أسئلة ؟</h1>
+                <p>اترك طلبًا وسنتصل بك لمساعدتك في اختيار أفضل تنسيق .</p>
+            </div>
+            <div class="left">
+                <form action="https://formsubmit.co/jorbanaahmad@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="الاسم" required>
+                    <input type="tel" name="phone" placeholder="رقم الهاتف" required>
+                    <button type="submit">اشتراك</button>
+                </form>
+            </div>
+            
+        </div>
+        <div class="bottom">
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100085119546811"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-behance"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/ahmadjorbanaj/"><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-dribbble"></i></a>   
+            </div>
+            <div class="sections">
+                <a href="#main">نحن</a>
+                <a href="#syllabus">المنهج</a>
+                <a href="#courses">الدورات</a>
+                <a href="#reviews">قالوا عنا</a>
+            </div>
+            <div class="contact">
+                <a href="">jorbanaahmad@gmail.com</a>
+                <a href="tel:+972539527635">0539527635</a>
+            </div>
+        </div>
+        <footer>made by <a href=""> Ahmad Jorban</a></footer>
+    </div>
 </body>
 </html>
